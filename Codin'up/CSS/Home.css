@@ -63,13 +63,13 @@ body {
 
 .title-type::before{
   background-color: #ed7014;
-  animation: typewriter 4s steps(9) 1s forwards;
+  animation: typewriter 4s steps(8) 1s forwards;
 }
 
 .title-type::after{
   width: .125em;
   background: #fff;
-  animation: typewriter 4s steps(9) 1s forwards,
+  animation: typewriter 4s steps(8) 1s forwards,
   blink 750ms steps(24) infinite;
 }
 
@@ -95,34 +95,7 @@ h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Paragraph Animation */
 
-.title-desc::before,
-.title-desc::after{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-::before{
-  animation: 1s steps(136) 1s forwards;
-}
-
-::after{
-  animation: typewriter 4s steps(136) 1s forwards,
-  blink 750ms steps(24) infinite;
-}
-
-p {
-  color: #fff;
-}
-
-.p-white-sec {
-  color: black;
-}
 
 /* Containers */
 .container-fluid {
@@ -198,7 +171,7 @@ p {
 
 /* Reviews Section */
 .testimonial-text {
-  font-size: 3rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
