@@ -278,3 +278,21 @@ button:hover {
     color: #000;
   }
 }
+
+/* Color codes */
+
+.cc-br{
+  color: #a52a2a;
+}
+
+.cc-b{
+  color: #0000cd;
+}
+
+.cc-r{
+  color: #ff0000;
+}
+
+.cc-n{
+  color: #000;
+}
