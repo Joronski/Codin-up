@@ -96,6 +96,12 @@
   margin-bottom: 1rem;
 }
 
+.content h4 {
+  font-family: 'Bungee', cursive;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
 .content strong {
   font-family: 'Bungee', cursive;
   color: #fff;
