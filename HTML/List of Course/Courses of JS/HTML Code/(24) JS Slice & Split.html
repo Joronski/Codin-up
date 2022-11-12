@@ -118,35 +118,59 @@
       <!-- Content Section -->
       <main class="content">
         <h1>JS Slice & Split (Coming Soon)</h1>
-        <!-- <iframe src="https://www.youtube.com/embed/HEdikBHsMag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe src="https://www.youtube.com/embed/HEdikBHsMag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <strong>Description</strong>
 
-        <p>Coming soon.</p>
+        <p>In this video, you will be taught two string methods, the slice and split method.</p>
 
         <!-- Sample Code Content -->
         <div class="sample-code">
           <p><span class="cc-b">&lt;<span class="cc-br">html</span>&gt;</span></p>
           <p><span class="cc-b" style="padding-left: 20px;">&lt;<span class="cc-br">head</span>&gt;</span></p>
-          <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">title</span>&gt;<span class="cc-n">JS Course</span>&lt;/<span class="cc-br">title</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">title</span>&gt;<span class="cc-n">JS Strings</span>&lt;/<span class="cc-br">title</span>&gt;</span></p>
           <p><span class="cc-b" style="padding-left: 20px;">&lt;/<span class="cc-br">head</span>&gt;</span></p>
           <p><span class="cc-b" style="padding-left: 20px;">&lt;<span class="cc-br">body</span>&gt;</span></p>
           <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">script</span>&gt;</span></p>
-          <p><span style="padding-left: 60px;">document.write(<span class="cc-br">"Coming Soon!"</span>);</span></p>
+          <p><span style="padding-left: 60px;"><span class="cc-b">var</span> fruits = [<span class="cc-br">"Banana"</span>, <span class="cc-br">"Orange"</span>, <span class="cc-br">"Lemon"</span>, <span class="cc-br">"Apple"</span>, <span class="cc-br">"Mango"</span>];</span></p>
+          <p><span style="padding-left: 60px;"><span class="cc-b">var</span> citrus = fruits.slice(<span class="cc-r">1</span>, <span class="cc-r">3</span>);</span></p>
+          <p><span style="padding-left: 60px;">document.write(citrus);</span></p>
           <p><span class="cc-b" style="padding-left: 40px;">&lt;/<span class="cc-br">script</span>&gt;</span></p>
           <p><span class="cc-b" style="padding-left: 20px;">&lt;/<span class="cc-br">body</span>&gt;</span></p>
           <p><span class="cc-b">&lt;/<span class="cc-br">html</span>&gt;</span></p>
 
-          <!-- Button to Compiler
+          <!-- Button to Compiler -->
           <a href="https://jsitor.com/" target="_blank">
             <button>Try it <i class="fa fa-angle-right"></i></button>
-          </a> -->
+          </a>
         </div>
 
         <strong>Code Description</strong>
 
-        <p>Coming soon.</p>
-      </main>
+        <p>The code above uses the method slice to return the selected elements. The output of the code would be "Orange,Lemon".</p>
+
+        <div class="sample-code">
+          <p><span class="cc-b">&lt;<span class="cc-br">html</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;<span class="cc-br">head</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">title</span>&gt;<span class="cc-n">JS Strings</span>&lt;/<span class="cc-br">title</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;/<span class="cc-br">head</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;<span class="cc-br">body</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">script</span>&gt;</span></p>
+          <p><span style="padding-left: 60px;"><span class="cc-b">var</span> text = <span class="cc-br">"How are you doing today?"</span>;</span></p>
+          <p><span style="padding-left: 60px;"><span class="cc-b">var</span> textSplit = text.split(<span class="cc-br">" "</span>);</span></p>
+          <p><span style="padding-left: 60px;">document.write(textSplit);</span></p>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;/<span class="cc-br">script</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;/<span class="cc-br">body</span>&gt;</span></p>
+          <p><span class="cc-b">&lt;/<span class="cc-br">html</span>&gt;</span></p>
+
+          <!-- Button to Compiler -->
+          <a href="https://jsitor.com/" target="_blank">
+            <button>Try it <i class="fa fa-angle-right"></i></button>
+          </a>
+        </div>
+
+        <strong>Code Description</strong>
+        <p>The code above uses the split method to split the set of strings into substrings.</br>The output of the code would be "How,are,you,doing,today?".</p>
     </section>
 
     <!-- Font Awesome -->
