@@ -112,7 +112,15 @@
   color: #fff;
 }
 
+.content ol {
+  color: #fff;
+}
+
 .content ul {
+  color: #fff;
+}
+
+.content dl {
   color: #fff;
 }
 
@@ -237,11 +245,11 @@ button:hover {
 }
 
 /* Color codes */
-.cc-br{
+.cc-br {
   color: #a52a2a;
 }
 
-.cc-b{
+.cc-b {
   color: #0000cd;
 }
 
@@ -249,11 +257,11 @@ button:hover {
   color: #32ed32;
 }
 
-.cc-r{
+.cc-r {
   color: #ff0000;
 }
 
-.cc-n{
+.cc-n {
   color: #000;
 }
 

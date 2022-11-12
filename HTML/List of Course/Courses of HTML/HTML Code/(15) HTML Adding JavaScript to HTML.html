@@ -93,18 +93,36 @@
 
         <strong>Description</strong>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsa, quod, placeat cupiditate enim hic natus maiores nobis sequi nisi odit voluptas earum quas perspiciatis qui explicabo recusandae ullam quibusdam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos obcaecati exercitationem voluptatem accusamus, beatae sunt voluptatibus quam odio magnam, mollitia minima dicta distinctio, amet accusantium! Dolore debitis qui quis iusto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium harum corrupti nisi ratione aperiam commodi rerum. Delectus illum suscipit distinctio unde iste veritatis voluptate nulla, enim rem harum ullam rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cumque totam ipsum, quia voluptate quam esse reprehenderit explicabo atque, molestiae doloribus earum repellendus architecto aperiam minima impedit dicta autem laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, corrupti adipisci. Itaque sint, nemo laborum a ratione corrupti laboriosam tenetur soluta pariatur nostrum fuga, earum voluptate ducimus iure ipsum saepe? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae recusandae iste, molestiae modi ea numquam vero repellat. Doloremque iusto labore nobis placeat perspiciatis optio repellendus eius adipisci voluptas expedita. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor doloremque rem debitis? Sed quod eligendi inventore deleniti aliquid velit, magni perferendis, quaerat officiis in consequuntur tenetur ipsum animi tempore asperiores.</p>
+        <p>In this tutorial, we will know how to identify the specific HTML element by Adding JS, along with understanding its implementation through the examples.</p>
+
+        <p>JavaScript makes HTML pages more dynamic and interactive</p>
+
+        <p>You can write various small functions, called event handlers using any of the scripting language and then you can trigger those functions using HTML attributes.</p>
+
+        <p>You can keep JavaScript code in a separate file and then include it wherever it's needed, or you can define functionality inside HTML document itself. Let's see both the cases one by one with suitable examples.</p>
+
+        <hr>
+
+        <h4>Internal Script</h4>
+
+        <p>You can write your script code directly into your HTML document. Usually we keep script code in header of the document using &lt;script&gt; tag, otherwise there is no restriction and you can put your source code anywhere in the document but inside &lt;script&gt; tag.</p>
 
         <!-- Sample Code Content -->
         <div class="sample-code">
-          <p>&lt;html&gt;</p>
-          <p><span style="padding-left: 20px;">&lt;head&gt;</span></p>
-          <p><span style="padding-left: 40px;">&lt;title&gt;Adding JavaScript to HTML&lt;/title&gt;</span></p>
-          <p><span style="padding-left: 20px;">&lt;/head&gt;</span></p>
-          <p><span style="padding-left: 20px;">&lt;body&gt;</span></p>
-          <p><span style="padding-left: 40px;">&lt;p&gt;Hello World&lt;p&gt;</span></p>
-          <p><span style="padding-left: 20px;">&lt;/body&gt;</span></p>
-          <p>&lt;/html&gt;</p>
+          <p><span class="cc-b">&lt;<span class="cc-br">!DOCTYPE html</span>&gt;</span></p>
+          <p><span class="cc-b">&lt;<span class="cc-br">html</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;<span class="cc-br">head</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">title</span>&gt;<span class="cc-n">Adding Internal JS to HTML</span>&lt;/<span class="cc-br">title</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">script</span>&gt;</p>
+          <p><span class="cc-br" style="padding-left: 60px;">function <span class="cc-b">Hello()</span><span class="cc-n"> {</span></span>
+          <p><span style="padding-left: 80px;">alert</span><span class="cc-c">("Hello, World")</span><span class="cc-br">;</span></p>
+          <p><span class="cc-br" style="padding-left: 60px;"><span class="cc-n"> }</span></span>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;/<span class="cc-br">script</span>&gt;</p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;/<span class="cc-br">head</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;<span class="cc-br">body</span>&gt;</span></p>
+          <p><span class="cc-b" style="padding-left: 40px;">&lt;<span class="cc-br">input <span class="cc-b">type = "button" onclick = "Hello();" name = "ok" value = "Click Me"</span></span>&gt;</p>
+          <p><span class="cc-b" style="padding-left: 20px;">&lt;/<span class="cc-br">body</span>&gt;</span></p>
+          <p><span class="cc-b">&lt;/<span class="cc-br">html</span>&gt;</span></p>
 
           <!-- Button to Compiler -->
           <a href="https://jsitor.com/" target="_blank">
@@ -114,7 +132,11 @@
 
         <strong>Code Description</strong>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto, eveniet repudiandae ratione sint harum pariatur id numquam doloremque sequi eaque quo accusamus ab nihil aut alias inventore! Cumque, tempore.</p>
+        <p>This will produce the following result, where you can try to click on the given button.</p>
+
+        <hr>
+
+        <h4>External Script</h4>
       </main>
     </section>
 
