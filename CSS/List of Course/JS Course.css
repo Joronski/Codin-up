@@ -84,6 +84,16 @@
   margin: 3rem auto;
 }
 
+/* Alternative to iframe element */
+.content video {
+  width: 740px;
+  height: 415px;
+  display: block;
+  margin: 3rem auto;
+  border: 3px solid #ffee97;
+  border-radius: 20px;
+}
+
 .content h1 {
   font-family: 'Bungee', cursive;
   color: #fff;
