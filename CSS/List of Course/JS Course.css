@@ -14,7 +14,7 @@
   flex: 1 1 0;
   max-width: 300px;
   padding: 20px;
-  background: linear-gradient(#ed7014, #fa5b3d);
+  background: #a14b09;
 
   /* With Scrollbar */
   position: sticky;
@@ -74,7 +74,7 @@
 .content {
   flex: 1 1 0;
   padding: 2rem;
-  background: linear-gradient(#dd5713, #d67229);
+  background: #dd5713;
 }
 
 .content iframe {
