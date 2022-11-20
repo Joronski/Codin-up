@@ -82,6 +82,8 @@
   height: 415px;
   display: block;
   margin: 3rem auto;
+  border: 3px solid #ffee97;
+  border-radius: 20px;
 }
 
 /* Alternative to iframe element */
@@ -320,6 +322,12 @@ button:hover {
     width: 100%;
     height: 400px;
   }
+
+  /* Alternative to iframe element */
+  .content video {
+    width: 100%;
+    height: 400px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -329,6 +337,14 @@ button:hover {
   }
 
   .content iframe {
+    width: 100%;
+    height: 272.5px;
+    display: block;
+    margin: 3rem auto;
+  }
+
+  /* Alternative to iframe element */
+  .content video {
     width: 100%;
     height: 272.5px;
     display: block;
