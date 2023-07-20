@@ -197,6 +197,11 @@ h1, h2, h3 {
   background: #f2f2f2;
 }
 
+.btn {
+  margin: 20px auto;
+  justify-content: center;
+}
+
 .slide-container {
   max-width: 950px;
   width: 100%;
@@ -279,7 +284,7 @@ h1, h2, h3 {
   margin: 0 4px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 9.5px;
+  padding: 0 auto;
   line-height: 33px;
   font-size: 14px;
   border: 2px solid transparent;
